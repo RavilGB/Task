@@ -36,7 +36,7 @@ int max = a;
                   max=c;
              }
 Console.Write("Максимальное число = "+max);
-*/
+
 
 //Задача 6: Напишите программу, которая на вход принимает число и выдаёт,
 //является ли число чётным (делится ли оно на два без остатка).
@@ -48,6 +48,13 @@ int a = Convert.ToInt32(Console.ReadLine());
             Console.Write("Четное число");
     } 
     else Console.Write("Нечетное число");
-/*
+*/
+//Задача №8 
+//Показать чётные числа от 1 до N
+Console.WriteLine("Введите число N");
+int N = Convert.ToInt32(Console.ReadLine());
 
-
+for (int i = 2; i <= N; i += 2)
+    {
+      Console.Write(i +" ");
+    }
