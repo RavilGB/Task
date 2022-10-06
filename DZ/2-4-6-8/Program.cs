@@ -19,6 +19,7 @@ else if (b > a)
     // Задача 4
    // Напишите программу,
    //  которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+/*
 Console.WriteLine("Первое число");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Второе число");
@@ -35,6 +36,10 @@ int max = a;
                   max=c;
              }
 Console.Write("Максимальное число = "+max);
+*/
+
+
+
          
 
 
